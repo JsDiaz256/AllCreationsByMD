@@ -10,26 +10,15 @@
 <body style="background-color:rgb(247, 200, 201)">
   <ul class="nav nav-pills" class="navbar navbar-light" style="background-color: #a1d4a2;" >
     <li class="navbar-text" style="font-weight: bold;">
-      Food Availability in NYC
+      All Creations By MD
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/">About Page</a>
+      <a class="nav-link" href="/AllCreationsByMD/about">About Page</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/macro">Boroughs</a>
+      <a class="nav-link" href="AllCreationsByMD/examples">Examples</a>
     </li>
-
-    <li class="nav-item dropdown">
-      <button class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
-        Zip Code:
-      </button>
-      <ul name="zip_choose" id="zip_choose" class="dropdown-menu">
-        {% for zip in zip_codes %}
-          <li><a class="dropdown-item" href="/micro?zip_choose={{zip}}">{{zip}}</a></li>
-        {% endfor %}
-      </ul>
-    </li>
-</ul>
+  </ul>
   <h1>All Creations By MD</h1>
   
 </body>
